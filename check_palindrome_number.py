@@ -1,6 +1,6 @@
 # Check Palindrome Number
 
-def is_palindrome(num):
+def is_palindrome():
     num = int(input("Enter a number: "))
     return str(num) == str(num)[ ::-1]
 
